@@ -1,0 +1,116 @@
+Python mein different types ke operators use hota hein 
+
+1. Arithmetic Operators (Math ke liye)
+
+Ye calculations karte hain:
+
+Operator	USE	            Example
++	        Addition	        a + b
+-	        Subtraction	        a - b
+*	        Multiplication	    a * b
+/	        Division	        a / b
+%	        Remainder	        a % b
+//	        Floor Division	    a // b
+**	        Power	            a ** b
+
+EXAMPLE:-
+a = 10 #ya aik variable ha jis me hamna a or b ki value store kra di ha
+b = 3
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a // b)
+print(a ** b)
+
+2. Comparison Operators (Compare karne ke liye)
+Operator	Meaning
+==	         Equal
+!=	         Not Equal
+>	         Greater than
+<	         Less than
+>=	         Greater or Equal
+<=	         Less or Equal
+
+EXAMPLE:-
+x = 10 #ya aik variable ha jis me hamna a or b ki value store kra di ha
+y = 5
+
+print(x == y)
+print(x != y)
+print(x > y)
+print(x < y)
+print(x >= y)
+print(x <= y)
+
+3. Logical Operators (Conditions ke liye)
+Operator	  Meaning
+and	          Dono conditions true hon
+or	          Ek condition true ho
+not	          Opposite result
+
+EXAMPLE:-
+age = 20 #ya aik variable ha jis me hamna a or b ki value store kra di ha
+
+print(age > 18 and age < 30)
+print(age < 18 or age > 50)
+print(not(age > 18))
+
+4. Assignment Operators (Value assign karne ke liye)
+Operator	 Example
+=	          x = 5
++=	          x += 2
+-=	          x -= 2
+*=	          x *= 2
+/=	          x /= 2
+EXAMPLE:-
+x = 10
+
+x += 5
+print(x)
+
+x -= 3
+print(x)
+#or baki bhi isi tara honga
+
+5. Identity Operators
+Operator	   Meaning
+is	          Same object check
+is not	      Different object check
+
+EXAMPLE:-
+a = [1,2,3]
+b = a
+
+print(a is b)  #ab ya check kra ga ka a ka variable ka andar b ki value ha
+print(a is not b) #ab ya check kra ga or dekha ga kahi a ka nadr b ki value to nhi ha
+
+6. Membership Operators
+Operator	       Meaning
+in	              Present hai ya nahi
+not in	          Present nahi hai
+
+EXAMPLE:-
+name = "Ali"
+
+print("A" in name)  #ab ya check kra ga ka uper jo variable ka nadar value ha us me A ha ya nhi
+print("z" not in name)  #ab ya check kra ga ka khi uper variable me z to nhi ha
+
+7. Bitwise Operators
+Operator	    USE
+&	            AND
+`	            `
+^	            XOR
+~	            NOT
+<<	        Left shift
+>>	        Right shift
+
+EXAMPLE:-
+a = 5
+b = 3
+
+print(a & b)
+print(a | b)
+print(a ^ b)
